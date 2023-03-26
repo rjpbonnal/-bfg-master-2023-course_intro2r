@@ -150,10 +150,15 @@
 <li>Seeking Help</li>
 <li>Data Structures (basic)</li>
 </ul>
+</section>
+<section class="slide level2">
+
+<p><a
+href="https://github.com/rjpbonnal/bfg-master-2023-course_intro2r">bfg-master-2023-course_intro2r</a></p>
 </section></section>
 <section>
-<section id="what-is-r" class="title-slide slide level1">
-<h1>What is R?</h1>
+<section id="rs-history" class="title-slide slide level1">
+<h1>R’s History</h1>
 
 </section>
 <section class="slide level2">
@@ -195,25 +200,20 @@ General Public License.</p>
 <p>It is written primarily in C, Fortran, and R itself
 (partially self-hosting). Precompiled executables are provided for
 various operating systems.</p>
-</section></section>
-<section>
-<section id="history" class="title-slide slide level1">
-<h1>History</h1>
-
 </section>
-<section id="history-1" class="slide level2">
-<h2>History</h2>
+<section class="slide level2">
+
 <p>R was started by professors <strong>Ross Ihaka</strong> and
 <strong>Robert Gentleman</strong> as a programming language to teach
 introductory statistics at the University of Auckland.</p>
 </section>
-<section id="history-2" class="slide level2">
-<h2>History</h2>
+<section class="slide level2">
+
 <p>The name of the language comes from the shared first letter of the
 authors, Ross and Robert.</p>
 </section>
-<section id="history-3" class="slide level2">
-<h2>History</h2>
+<section class="slide level2">
+
 <ul>
 <li>In Aug 1993 first shared binaries of R on the data archive StatLib
 and the s-news mailing list</li>
@@ -232,34 +232,40 @@ and the s-news mailing list</li>
 </section>
 <section id="the-project" class="slide level2">
 <h2>The project</h2>
+</section>
+<section class="slide level2">
+
 <p>https://www.r-project.org/ <img data-src="images/r-home.png"
 style="width:50.0%" alt="R home" /></p>
 </section>
 <section id="the-network" class="slide level2">
 <h2>The network</h2>
+</section>
+<section class="slide level2">
+
 <p><strong>CRAN</strong> is a network of ftp and web servers around the
 world that store identical, up-to-date, versions of code and
 documentation for R. Please use the CRAN mirror nearest to you to
 minimize network load. ~90 and growing…</p>
 </section>
-<section id="cran" class="slide level2">
-<h2>CRAN</h2>
+<section class="slide level2">
+
 <p>The Comprehensive R Archive Network (CRAN) was founded in 1997 by
 Kurt Hornik and Fritz Leisch to host R’s source code, executable files,
 documentation, and user-created packages.</p>
 </section>
-<section id="cran-1" class="slide level2">
-<h2>CRAN</h2>
+<section class="slide level2">
+
 <p>Its name and scope mimics the Comprehensive TeX Archive Network and
 the Comprehensive Perl Archive Network.</p>
 </section>
-<section id="cran-2" class="slide level2">
-<h2>CRAN</h2>
+<section class="slide level2">
+
 <p>CRAN originally had three mirrors and 12 contributed packages. As of
 December 2022, it has 103 mirrors and 18,976 contributed packages.</p>
 </section>
-<section id="cran-3" class="slide level2">
-<h2>CRAN</h2>
+<section class="slide level2">
+
 <p>https://cran.r-project.org/ <img data-src="images/r-cran.png"
 style="width:60.0%" alt="R CRAN" /></p>
 </section>
@@ -276,26 +282,29 @@ a notebook interface.</p>
 </section>
 <section id="install-r" class="slide level2">
 <h2>Install R</h2>
+</section>
+<section class="slide level2">
+
 <p>in your Almalinux 9 update the available system packages:</p>
 <div class="sourceCode" id="cb1"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> dnf update</span></code></pre></div>
 </section>
-<section id="install-r-1" class="slide level2">
-<h2>Install R</h2>
+<section class="slide level2">
+
 <p>Once the update is completed, enable the EPEL and CRB on AlmaLinux
 9.</p>
 <div class="sourceCode" id="cb2"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> dnf install epel-release</span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> dnf config-manager <span class="at">--set-enabled</span> crb</span></code></pre></div>
 </section>
-<section id="install-r-2" class="slide level2">
-<h2>Install R</h2>
+<section class="slide level2">
+
 <div class="sourceCode" id="cb3"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">sudo</span> dnf install R</span></code></pre></div>
 <p>Type <code>Y</code> when required.</p>
 </section>
-<section id="install-r-3" class="slide level2">
-<h2>Install R</h2>
+<section class="slide level2">
+
 <p>Check the version</p>
 <div class="sourceCode" id="cb4"><pre
 class="sourceCode bash"><code class="sourceCode bash"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="ex">$</span> R <span class="at">--version</span></span>

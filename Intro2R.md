@@ -12,7 +12,11 @@
 * Seeking Help
 * Data Structures (basic)
 
-# What is R?
+---
+
+[bfg-master-2023-course_intro2r](https://github.com/rjpbonnal/bfg-master-2023-course_intro2r)
+
+# R's History
 
 ---
 
@@ -43,18 +47,16 @@ The official R software environment is an open-source free software environmen
 
 It is written primarily in C, Fortran, and R itself (partially self-hosting). Precompiled executables are provided for various operating systems. 
 
-# History 
-
-## History
+---
 
 R was started by professors __Ross Ihaka__ and __Robert Gentleman__ as a programming language to teach introductory statistics at the University of Auckland.
 
-## History
+---
 
 The name of the language comes from the shared first letter of the
 authors, Ross and Robert.
 
-## History
+---
 
 * In Aug 1993 first shared binaries of R on the data archive StatLib and the s-news mailing list
 * In Jun 1995, R free and open-source under the GNU GPL
@@ -67,29 +69,37 @@ authors, Ross and Robert.
 # R
 
 ## The project
+
+---
+
 https://www.r-project.org/
 ![R home](images/r-home.png){width=50%}
 
 ## The network
 
+---
+
 __CRAN__ is a network of ftp and web servers around the world that store identical, up-to-date, versions of code and documentation for R. Please use the CRAN mirror nearest to you to minimize network load. ~90 and growing…
 
-## CRAN
+---
+
 The Comprehensive R Archive Network (CRAN) was founded in 1997 by Kurt
 Hornik and Fritz Leisch to host R's source code, executable files,
 documentation, and user-created packages.
 
-## CRAN
+---
+
 Its name and scope mimics the Comprehensive TeX Archive Network and
 the Comprehensive Perl Archive Network.
 
-## CRAN
+---
 
 CRAN originally had three mirrors and 12 contributed packages.
 As of December 2022, it has 103 mirrors and 18,976 contributed
 packages.
 
-## CRAN
+---
+
 https://cran.r-project.org/
 ![R CRAN](images/r-cran.png){width=60%}
 
@@ -99,31 +109,35 @@ https://cran.r-project.org/
 
 R has a CLI. Multiple third-party GUI: RStudio, an IDE, and Jupyter, a notebook interface.
 
-
 # SetUp
 
 ## Install R
+
+---
+
 in your Almalinux 9 update the available system packages:
 
 ```bash
 sudo dnf update
 ```
 
-## Install R
+---
+
 Once the update is completed, enable the EPEL and CRB on AlmaLinux 9.
 ```bash
 sudo dnf install epel-release
 sudo dnf config-manager --set-enabled crb
 ```
 
-## Install R
+---
 
 ```bash
 sudo dnf install R
 ```
 Type `Y` when required.
 
-## Install R
+---
+
 Check the version
 
 ```bash
