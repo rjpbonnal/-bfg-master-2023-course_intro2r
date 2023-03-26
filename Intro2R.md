@@ -11,6 +11,7 @@
 * Project Management With RStudio
 * Seeking Help
 * Data Structures (basic)
+* Packages and Libraries
 
 ---
 
@@ -1119,3 +1120,4 @@ R will download automatically all the dependencies.
 ---
 
 ![](images/r-manual-details.png){width=70%}
+
