@@ -61,7 +61,7 @@ R is one of the most commonly used programming languages in data mining
 
 ---
 
-As of December 2022, R ranks 11th in the TIOBE index, a measure of programming language popularity, in which the language peaked in 8th place in August 2020.
+As of December 2022, R ranks 11th in the [TIOBE index](https://www.tiobe.com/tiobe-index/), a measure of programming language popularity, in which the language peaked in 8th place in August 2020.
 
 ---
 
