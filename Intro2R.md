@@ -1,4 +1,4 @@
-% Introduction to R
+% Intro to R
 % Raoul Jean Pierre Bonnal
 % 2023-03-27
 
@@ -16,6 +16,10 @@
 ---
 
 [bfg-master-2023-course_intro2r](https://github.com/rjpbonnal/bfg-master-2023-course_intro2r)
+
+---
+
+![](images/qr-code.png){width=60%}
 
 # R's History
 
