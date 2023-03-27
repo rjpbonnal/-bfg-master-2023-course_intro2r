@@ -25,6 +25,25 @@
 
 ---
 
+R was started by professors __Ross Ihaka__ and __Robert Gentleman__ as a programming language to teach introductory statistics at the University of Auckland.
+
+---
+
+The name of the language comes from the shared first letter of the
+authors, Ross and Robert.
+
+---
+
+* In Aug 1993 first shared binaries of R on the data archive StatLib and the s-news mailing list
+* In Jun 1995, R free and open-source under the GNU GPL
+* In Apr 1997 Mailing lists for the R project
+* In Dec 1997 R officially became a GNU project
+* In 1997 The R Core Team was formed
+* In Feb 2000 The first official 1.0 version
+* In Apr 2003 the R Foundation as a non-profit org
+
+---
+
 R is a programming language for statistical computing and graphics
 supported by the R Core Team and the R Foundation for Statistical
 Computing.
@@ -51,25 +70,6 @@ The official R software environment is an open-source free software environmen
 ---
 
 It is written primarily in C, Fortran, and R itself (partially self-hosting). Precompiled executables are provided for various operating systems. 
-
----
-
-R was started by professors __Ross Ihaka__ and __Robert Gentleman__ as a programming language to teach introductory statistics at the University of Auckland.
-
----
-
-The name of the language comes from the shared first letter of the
-authors, Ross and Robert.
-
----
-
-* In Aug 1993 first shared binaries of R on the data archive StatLib and the s-news mailing list
-* In Jun 1995, R free and open-source under the GNU GPL
-* In Apr 1997 Mailing lists for the R project
-* In Dec 1997 R officially became a GNU project
-* In 1997 The R Core Team was formed
-* In Feb 2000 The first official 1.0 version
-* In Apr 2003 the R Foundation as a non-profit org
 
 # R
 
